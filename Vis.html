@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>My First GitHub Website</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f2f7ff;
+            padding: 50px;
+        }
+
+        h1 {
+            color: #003366;
+        }
+
+        p {
+            font-size: 18px;
+        }
+
+        button {
+            padding: 12px 25px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>My First GitHub Website</h1>
+
+    <p>This webpage is hosted using GitHub.</p>
+
+    <button onclick="showMessage()">
+        Click Me
+    </button>
+
+    <p id="message"></p>
+
+    <script>
+        function showMessage() {
+            document.getElementById("message").innerHTML =
+                "Hello! JavaScript is working.";
+        }
+    </script>
+
+</body>
+  </html>
